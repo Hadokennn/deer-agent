@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "ace_ai": {
+      "enabled": false,
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@your-org/ace-ai-mcp-server"],
+      "env": {
+        "ACE_AI_TOKEN": "$ACE_AI_TOKEN"
+      },
+      "description": "商品上品表单 MCP 工具 (ace_ai_locate_template / ace_ai_get_schema / ace_ai_search_field)"
+    }
+  },
+  "skills": {
+    "oncall-diagnosis": {
+      "enabled": true
+    }
+  }
+}

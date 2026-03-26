@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+checkpoints.db
+memory.json
+agents/*/memory.json
+.deer-flow/
+uv.lock
+config.yaml
